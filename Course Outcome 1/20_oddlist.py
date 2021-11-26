@@ -3,4 +3,4 @@ oddlist = []
 for i in l:
     if (i % 2 != 0):
         oddlist.append(i)
-print("Odd lists:", oddlist)
+print("Odd list:", oddlist)
