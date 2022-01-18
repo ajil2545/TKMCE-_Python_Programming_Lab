@@ -1,0 +1,2 @@
+#create a class showing details of products containg product code, product name, name of a fruit. Whether the fruit is prsent in cosmetics or not(true/false)
+#display the details of products having cosmetics as raw material

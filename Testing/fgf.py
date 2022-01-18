@@ -1,0 +1,1 @@
+#fn to check whether the number is aliqud or not
