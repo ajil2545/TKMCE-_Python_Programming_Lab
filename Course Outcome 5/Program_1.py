@@ -4,3 +4,4 @@ list=read.readlines()
 print("List: ",list)
 for i in range(0,len(list)):
     print("Line",i+1,": ",list[i])
+read.close()
