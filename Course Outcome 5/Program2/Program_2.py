@@ -8,7 +8,7 @@ for i in range(0,len(list1)):
     print("Line",i+1,": ",list1[i])
 file1.close()
 
-#code for writing content on file
+#code for writing content on file2
 for i in range(0,len(list1)):
     if  i%2==0:
         file2.write(list1[i])
