@@ -1,2 +1,4 @@
-hai
-hello
+Python is a high level programming language.
+Hello World.
+Java is simple, robust and secure.
+php stands for Hypertext Preprocessor and is a server side scripting language.
