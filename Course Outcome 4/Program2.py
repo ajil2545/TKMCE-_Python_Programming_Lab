@@ -1,8 +1,9 @@
 class BankAccount:
-    def __init__(self,name):
+    def __init__(self,accno,name,acctype):
+        self.accno=accno
         self.name=name
+        self.acctype=acctype
         self.balance=0.0
-        print("\n",self.name,"'s Account created successfully!")
     def deposit(self):
         self.dAmount=float(input("\nEnter the amount you want to deposit: "))
         self.balance+=self.dAmount
@@ -18,11 +19,10 @@ class BankAccount:
             print("\nYour current balance is Rs.",self.balance)
     def balanceDisplay(self):
         print("\nYour current balance is Rs.",self.balance)
-user1=BankAccount("Gokul")
-user1.balanceDisplay()
-user1.deposit()
-user1.withdraw()
-user2=BankAccount("Nikhil")
-user2.balanceDisplay()
-user2.deposit()
-user2.withdraw()
+accno=input("Enter the account number: ")
+username=input("Enter the name: ")
+acctype=input("Enter the account type: ")
+user=BankAccount(accno,username,acctype)
+user.balanceDisplay()
+user.deposit()
+user.withdraw()

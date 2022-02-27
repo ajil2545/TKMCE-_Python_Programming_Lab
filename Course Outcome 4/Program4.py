@@ -7,12 +7,12 @@ class Time:
         h=self.__hour+obj.__hour
         m=self.__minute+obj.__minute
         s=self.__second+obj.__second
-        if m>=60:
-            h+=1
-            m-=60
         if s>=60:
             m+=1
             s-=60
+        if m>=60:
+            h+=1
+            m-=60
         return str(h)+":"+str(m)+":"+str(s)
 t1=Time(12,30,10)
 t2=Time(10,30,10)
