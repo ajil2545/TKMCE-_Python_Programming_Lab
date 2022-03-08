@@ -1,12 +1,12 @@
 import csv
 dict_columns = ['Name','Mark']
 dict_rows=[
-    {'Name' : 'Abhi' , 'Mark' : 30},
-    {'Name' : 'Akshay' , 'Mark' : 20},
-    {'Name' : 'Basheer' , 'Mark' : 25},
-    {'Name' : 'Catherine' , 'Mark' : 28},
-    {'Name' : 'Sneha' , 'Mark' : 28},
-    {'Name' : 'Timal' , 'Mark' : 22},
+    {'Name' : 'Abhinav' , 'Mark' : 40},
+    {'Name' : 'Akshay' , 'Mark' : 45},
+    {'Name' : 'Basith' , 'Mark' : 25},
+    {'Name' : 'Kiran' , 'Mark' : 28},
+    {'Name' : 'Sreeja' , 'Mark' : 28},
+    {'Name' : 'Thomas' , 'Mark' : 22},
     ]
 with open('dict.csv' , 'w') as csvwrite:
     write = csv.DictWriter(csvwrite , fieldnames = dict_columns)

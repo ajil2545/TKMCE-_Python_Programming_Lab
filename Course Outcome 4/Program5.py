@@ -19,8 +19,8 @@ class Python(Book):
     def display(self):
         print("Publisher: ",self.name) 
         print("Title: ",self.title)
-        print("Author",self.author)   
-        print("Price",self.price)
+        print("Author: ",self.author)   
+        print("Price: ",self.price)
         print("No. of pages: ",self.no_of_pages)
 obj=Python("xyz","abc","pqr",123,12)
 obj.display()
